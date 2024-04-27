@@ -1,7 +1,9 @@
-export default function Button({ title }) {
+export default function Button({ title, onClick }) {
   return (
     <>
-      <button className="button h5">{title ? title : "click me"}</button>
+      <button onClick={onClick} className="button h5">
+        {title ? title : "click me"}
+      </button>
     </>
   );
 }
