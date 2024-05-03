@@ -4,7 +4,8 @@ import "./App.css";
 // import { Slider } from "./projects/04-slider-app/Slider";
 // import HiddenSearchApp from "./projects/05-hidden-search-bar/HiddenSearchBarApp";
 // import PopupApp from "./projects/06-popup-app/PopupApp";
-import DialogueBox from "./projects/08-dialogue-box/DialogueBox";
+// import DialogueBox from "./projects/08-dialogue-box/DialogueBox";
+import FilterContactsApp from "./projects/09-filter-contacts-app/FilterContactsApp";
 function App() {
   return (
     <>
@@ -14,7 +15,8 @@ function App() {
       {/* <HiddenSearchApp /> */}
       {/* <PopupApp /> */}
       {/* <ProgressBarsContainer /> */}
-      <DialogueBox />
+      {/* <DialogueBox /> */}
+      <FilterContactsApp />
     </>
   );
 }
