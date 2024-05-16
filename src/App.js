@@ -6,7 +6,8 @@ import "./App.css";
 // import PopupApp from "./projects/06-popup-app/PopupApp";
 // import DialogueBox from "./projects/08-dialogue-box/DialogueBox";
 // import FilterContactsApp from "./projects/09-filter-contacts-app/FilterContactsApp";
-import RegForm from "./projects/10-reg-form-validation/RegForm";
+// import RegForm from "./projects/10-reg-form-validation/RegForm";
+import NotesApps from "./projects/11-note-app/NotesApps";
 
 function App() {
   return (
@@ -19,7 +20,8 @@ function App() {
       {/* <ProgressBarsContainer /> */}
       {/* <DialogueBox /> */}
       {/* <FilterContactsApp /> */}
-      <RegForm />
+      {/* <RegForm /> */}
+      <NotesApps />
     </>
   );
 }
