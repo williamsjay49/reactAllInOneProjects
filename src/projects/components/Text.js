@@ -1,5 +1,9 @@
-function Text({ title, size = "h3" }) {
-  return <h1 className={size}>{title ? title : "Hello anything!"}</h1>;
+function Text({ title, size = "h3", style }) {
+  return (
+    <h1 className={size} style={style}>
+      {title ? title : "Hello anything!"}
+    </h1>
+  );
 }
 
 export default Text;

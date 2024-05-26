@@ -7,7 +7,8 @@ import "./App.css";
 // import DialogueBox from "./projects/08-dialogue-box/DialogueBox";
 // import FilterContactsApp from "./projects/09-filter-contacts-app/FilterContactsApp";
 // import RegForm from "./projects/10-reg-form-validation/RegForm";
-import NotesApps from "./projects/11-note-app/NotesApps";
+// import NotesApps from "./projects/11-note-app/NotesApps";
+import ResponsiveNav from "./projects/12-responsive-nav/ResponsiveNav";
 
 function App() {
   return (
@@ -21,7 +22,8 @@ function App() {
       {/* <DialogueBox /> */}
       {/* <FilterContactsApp /> */}
       {/* <RegForm /> */}
-      <NotesApps />
+      {/* <NotesApps /> */}
+      <ResponsiveNav />
     </>
   );
 }
