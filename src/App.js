@@ -8,7 +8,8 @@ import "./App.css";
 // import FilterContactsApp from "./projects/09-filter-contacts-app/FilterContactsApp";
 // import RegForm from "./projects/10-reg-form-validation/RegForm";
 // import NotesApps from "./projects/11-note-app/NotesApps";
-import ResponsiveNav from "./projects/12-responsive-nav/ResponsiveNav";
+// import ResponsiveNav from "./projects/12-responsive-nav/ResponsiveNav";
+import TextAnimationApp from "./projects/13-react-animated-text/TextAnimationApp";
 
 function App() {
   return (
@@ -23,7 +24,8 @@ function App() {
       {/* <FilterContactsApp /> */}
       {/* <RegForm /> */}
       {/* <NotesApps /> */}
-      <ResponsiveNav />
+      {/* <ResponsiveNav /> */}
+      <TextAnimationApp />
     </>
   );
 }
